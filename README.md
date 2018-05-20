@@ -17,10 +17,9 @@ How to run:
 
 Import the project into IDE (intelliJ IDEA in my case) {You might have to select maven as the project type}
 
-Create a directory by name drivers in the root directory
+[Ignore if Mac]
+Download and copy chromedriver to driver directory {Download host specific chromedriver }
+Please correct the name of driver in test files.
 
-Download and copy chromedriver (for Mac) {Download host specific chromedriver }
-
-If the host is not mac , please correct the name of driver in test files.
 
 Right click on AllTests.xml and select Run. 
