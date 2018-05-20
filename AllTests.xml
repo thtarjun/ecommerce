@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="selenium.arjun.com">
+
+	<test name="selenium.arjun.com" parallel="false" preserve-order="true">
+    <classes>
+        <class name="selenium.arjun.com.CompleteShoppingTest">
+            <methods>
+                <include name="completeCheckoutTestForOneItem" />
+            </methods>
+        </class>
+        <class name="selenium.arjun.com.ContactUsFormTest">
+            <methods>
+                <include name="invalidEmailContactUsTest" />
+            </methods>
+        </class>
+        <class name="selenium.arjun.com.SubscribeToNewsletterTest">
+            <methods>
+                <include name="SubscribeToNewsletterTest" />
+            </methods>
+        </class>
+        <class name="selenium.arjun.com.SearchResultPageTest">
+            <methods>
+                <include name="verifySortingAlgorithm" />
+            </methods>
+        </class>
+   </classes>
+</test>
+</suite>
